@@ -18,11 +18,11 @@ At the beginning, when we analyze the challenge with **IDA**, we notice two chec
 Disabling the VM check is not difficult and can easily be done with a debugger.  
 We run the challenge in `gdb`, disassemble the `main` function and check what happens in the VM detection part.
 md
-![Description](./images/screenshot1.png)
+![Description](./writeups/images/screenshot1.png)
 We notice at `main+159` there is a comparison against the constant `0x1337`.  
 So the program expects the register `eax` to contain `0x1337` before this comparison.  
 md
-![Description](./images/screenshot2.png)
+![Description](./writeups/images/screenshot2.png)
 To bypass it, we set a breakpoint and change the register value:
 
 ```bash
@@ -84,7 +84,7 @@ edx = 0x12
 edi = 0x10
 ```
 md
-![Description](./images/screenshot4.png)
+![Description](./writeups/images/screenshot4.png)
 ---
 
 ## Step 5: Setting the registers in gdb

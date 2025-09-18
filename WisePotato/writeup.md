@@ -43,7 +43,7 @@ continue
 set $eax = 0
 ```
 md
-![Description](./images/screenshot3.png)
+![Description](./images/Screenshot3.png)
 ---
 
 ## Step 3: Answering the riddle questions
@@ -84,7 +84,7 @@ edx = 0x12
 edi = 0x10
 ```
 md
-![Description](./writeups/images/screenshot4.png)
+![Description](./images/Screenshot4.png)
 ---
 
 ## Step 5: Setting the registers in gdb

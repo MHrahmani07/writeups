@@ -52,7 +52,7 @@ The required mouse sequence is:
 
 This block is only active during a time window checked by `if (currentTime > 15.0 && currentTime < 25.0)`.
 
-![Time Lock](images/3.png)
+![Time Lock](images/u.png)
 
 The hint particle in the corner turns purple during this 10-second window as a visual cue.
 
